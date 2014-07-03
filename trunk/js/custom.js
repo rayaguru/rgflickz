@@ -83,7 +83,7 @@ $(document).ready(function() {
   	.cycle({ 
 		fx:     'scrollHorz', 
 		speed:  500, 
-		timeout: 6000, 
+		timeout: 4000, 
 		pause: 1,
 		pager:  '#slideshow-nav',
 		after: function(){
