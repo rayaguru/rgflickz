@@ -778,7 +778,11 @@ ul.gallery.three-cols li{
 ul.gallery.four-cols li{
 	width: 200px;
 	height: 200px;
-	margin: 0px 0px 20px 20px;
+	margin: 10px 10px 20px 20px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e2e6e7));
+	border-radius: 10px 10px 10px 10px;
+	background: -moz-linear-gradient(top, #ffffff, #e2e6e7);
+	box-shadow: 0 0 10px rgb(0,0,0); 
 }
 
 ul.gallery.two-cols li img{
